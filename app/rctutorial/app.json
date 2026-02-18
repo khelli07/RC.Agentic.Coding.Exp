@@ -12,5 +12,22 @@
     "nameSlug": "rctutorial",
     "classFile": "RcTutorialApp.ts",
     "description": "Rocket.Chat app initialized in rc-explore workspace",
+    "permissions": [
+        {
+            "name": "networking",
+            "domains": [
+                "https://icanhazdadjoke.com"
+            ]
+        },
+        {
+            "name": "slashcommand"
+        },
+        {
+            "name": "room.read"
+        },
+        {
+            "name": "message.write"
+        }
+    ],
     "implements": []
 }
